@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 1 - HTML Element</title>
+
+    <style>
+
+.myDiv {
+  border: 5px outset red;
+  background-color: lightblue;
+  text-align: center;
+}
+    </style>
+</head>
+<body>
+
+<!--Heading Start -->
+<h1>This is Heading 1</h1>
+<h2>This is Heading 2</h2>
+<h3>This is Heading 3</h3>
+<h4>This is Heading 4</h4>
+<h5>This is Heading 5</h5>
+<h6>This is Heading 6</h6>
+<!-- Heading  End -->
+
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam nobis, cumque quisquam, quidem nam labore sequi modi aperiam ex cum expedita officiis soluta, quaerat possimus et sed laborum animi nemo?</p>
+
+<a href="https://www.google.com">Visit Google </a>
+
+<p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p>
+
+<address>
+    Mail Me <a href="mailto:hasancse14@gmail.com">Hasan Mahedi</a>.<br>
+    Uttara, Dhaka<br>
+    Bangladesh
+    </address>
+    <br>
+
+    <img src="images/workplace.jpg" alt="Workplace" usemap="#workmap" width="400" height="379">
+
+    <map name="workmap">
+      <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
+      <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm">
+      <area shape="circle" coords="337,300,44" alt="Cup of coffee" href="coffee.htm">
+    </map>
+
+    <article>
+        <h2>Google Chrome</h2>
+        <p>Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web browser today!</p>
+    </article>
+
+    <aside>
+            <h4>Aside </h4>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam voluptates magni nihil quaerat nulla, adipisci, veritatis libero quam nesciunt, tempore vitae reprehenderit autem neque ad? Culpa ut ipsa sapiente facilis.</p>
+    </aside>
+
+    <audio controls>
+        <source src="horse.ogg" type="audio/ogg">
+        <source src="horse.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <p><b>and this is bold text</b>.</p>       
+    
+    <ul>
+        <li>User <bdi>amin</bdi>: 20 points</li>
+        <li>User <bdi>mohammad</bdi>: 80 points</li>
+        <li>User <bdi>Abul</bdi>: 90 points</li>
+    
+    </ul>
+    <p><bdo dir="rtl">This paragraph will go right-to-left.</bdo></p> 
+    
+    <blockquote cite="http://www.worldwildlife.org/who/index.html">
+        For 50 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported by 1.2 million members in the United States and close to 5 million globally.
+    </blockquote>
+
+    <button type="button" onclick="alert('Hasan Mahedi')">Click Me!</button>
+
+    <canvas id="myCanvas" width="300" height="150" style="border:1px solid grey"></canvas>
+    <table>
+        <caption>Monthly savings</caption>
+        <tr>
+          <th>Month</th>
+          <th>Savings</th>
+        </tr>
+        <tr>
+          <td>June</td>
+          <td>100 Taka</td>
+        </tr>
+      </table>
+
+      <img src="images/workplace.jpg" width="220" height="277" alt="The Scream">
+      <p><cite>The Scream</cite> by Edward Munch. Painted in 1893.</p>
+      <p>The HTML <code>button</code> tag defines a clickable button.</p>
+      <table>
+        <colgroup>
+          <col span="2" style="background-color:red">
+          <col style="background-color:yellow">
+        </colgroup>
+        <tr>
+          <th>SL</th>
+          <th>Title</th>
+          <th>Price</th>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>Horse</td>
+          <td> 10000 TAka</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Cow</td>
+          <td> 2439483 Taka</td>
+        </tr>
+      </table>
+
+      <ul>
+        <li><data value="21053">Cherry Tomato</data></li>
+        <li><data value="21054">Beef Tomato</data></li>
+        <li><data value="21055">Snack Tomato</data></li>
+      </ul>
+
+      <label for="browser">Choose your browser from the list:</label>
+      <input list="browsers" name="browser" id="browser">
+      
+      <datalist id="browsers">
+        <option value="Edge">
+        <option value="Firefox">
+        <option value="Chrome">
+        <option value="Opera">
+        <option value="Safari">
+      </datalist>
+
+      <dl>
+        <dt>Coffee</dt>
+        <dd>Black hot drink</dd>
+        <dt>Milk</dt>
+        <dd>White cold drink</dd>
+      </dl>
+
+      <p>My favorite color is <del>blue</del> <ins>red</ins>!</p>
+
+      <details>
+        <summary>Epcot Center</summary>
+        <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+      </details>
+      <p><dfn>HTML</dfn> is the standard markup language for creating web pages.</p>
+      <dialog open>This is an open dialog window</dialog>
+      <div class="myDiv">
+        <h2>This is a heading in a div element</h2>
+        <p>This is some text in a div element.</p>
+      </div>
+
+      <p>You <em>have</em> to hurry up!</p>
+      <embed type="text/html" src="https://google.com" width="500" height="200">
+
+        <form action="/action_page.php">
+            <fieldset>
+              <legend>Personalia:</legend>
+              <label for="fname">First name:</label>
+              <input type="text" id="fname" name="fname"><br><br>
+              <label for="lname">Last name:</label>
+              <input type="text" id="lname" name="lname"><br><br>
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email"><br><br>
+              <label for="birthday">Birthday:</label>
+              <input type="date" id="birthday" name="birthday"><br><br>
+              <input type="submit" value="Submit">
+            </fieldset>
+          </form>
+
+          <figure>
+            <img src="images/workplace.jpg" alt="Trulli" style="width:100%">
+            <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption>
+          </figure>
+
+      <hr>
+      <iframe src="https://www.google.com" title="Google "></iframe>
+      <img src="images/workplace.jpg" alt="my Table" width="500" height="600">
+
+      <p>My favorite color is <del>blue</del> <ins>red</ins>!</p>
+
+      <p>Press <kbd>Ctrl</kbd> + <kbd>C</kbd> to copy text (Windows).</p>
+      <ol>
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+      </ol>
+      
+      <ul>
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+      </ul>
+
+      <p>Do not forget to buy <mark>milk</mark> today.</p>
+      <label for="disk_c">Disk usage C:</label>
+      <meter id="disk_c" value="2" min="0" max="10">2 out of 10</meter><br>
+      
+      <label for="disk_d">Disk usage D:</label>
+      <meter id="disk_d" value="0.6">60%</meter>
+
+
+
+          <footer>
+            <p>Author: Hasan Mahedi</p>
+            <p><a href="mailto:hasancse14@gmail.com">hasancse14@gmail.com</a></p>
+          </footer>
+</body>
+</html>
